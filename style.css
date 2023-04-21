@@ -1,0 +1,124 @@
+
+*{
+    font-family: 'New Super Mario Font U', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+html{
+   background-image:url("imagenes/fondo.jpg");
+    background-size: 80%;
+    
+}
+.logo-alura{
+   padding-top: 2%;
+   margin-left: 1%;
+   width: 10%;
+  
+}
+
+main{
+    display:flex;
+    height:700px
+}
+.seccion-entrada{
+    width: 50%;
+    height: 650px;
+    box-sizing: border-box;
+}
+.seccion-salida{
+    width: 50%;
+    height: 650px;
+    box-sizing:border-box;
+}
+
+.ingreso-texto {
+border-image:url("imagenes/marco1.png") 200 round;
+border-image-width: 40px;
+background:transparent;
+padding: 25px;
+box-sizing: border-box;
+margin-top: 20px;
+margin-left: 20%;
+text-transform: lowercase;
+color:black
+}
+.ingreso-texto:focus{
+    outline:none;
+}
+
+.mensaje-salida{
+    background-color: 		rgb(199,75,13);
+    background-image: url("imagenes/secret.png");
+    border-image:url("imagenes/textosalida.png") 100 round;
+    border-image-width: 100px;
+    background-size: 55%;
+    background-position-x: 50%;
+    background-position-y: 25%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding:28px;
+    margin-top: 20px;
+    margin-left: 20%;
+  
+    
+
+}
+mensaje-salida:focus{
+    outline:none;
+}
+.advertencia{
+    text-align: center;
+   margin:10px;
+}
+
+.botones{
+    display:flex;
+    align-items: center;
+ 
+}
+
+
+
+.boton-encriptar{
+    width: 200px;
+    height: 155px;
+    border:none;
+    background: transparent;
+    background-image: url("imagenes/tubod.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 25px;
+    margin-left:70px;
+    text-shadow:2px 2px rgb(206, 201, 201);
+    
+    position:flex;
+}
+
+.boton-desencriptar{
+    width: 200px;
+    height: 155px;
+    border:none;
+    background: transparent;
+    background-image: url("imagenes/tuboi2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left:15%;
+    font-size: 25px;
+    text-shadow:2px 2px rgb(206, 201, 201);
+ 
+}
+
+.boton-copiar{
+    background-image: url("imagenes/copiar.png");
+    height: 100px;
+    width: 300px;
+    padding-top:10px;
+    font-size: 40px;
+    color: black;
+    
+    background-size: 20%;
+    margin-left: 25%;
+    margin-top:60px;
+    text-shadow:2px 2px rgb(206, 201, 201);
+}

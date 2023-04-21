@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/new-super-mario-font-u" rel="stylesheet">
+    <title>Encriptador</title>
+    
+</head>
+
+<body>
+    <header>
+        <img class="logo-alura" src="imagenes/Logo.png" alt="Logo Alura">   
+    </header> 
+    <main>
+        <section class="seccion-entrada">
+            <textarea class="ingreso-texto" onkeypress= "return validar(event);" cols="22" rows="12" placeholder="Ingrese el texto que quiere encriptar o desencriptar" pattern="[a-z]""></textarea>
+            <div class="aviso">
+                <h6 class="advertencia">&#10071; Solo letras minúsculas y sin acento</h6>
+            </div>
+            <div class="botones">
+                <input class="boton-encriptar" type="button" value="Encriptar">
+                <input class="boton-desencriptar" type="button" value="Desencriptar">
+            </div>  
+        </section>
+        <section class="seccion-salida">
+            <div class="texto-salida">
+                <textarea class="mensaje-salida" id="salida" cols="22" rows="12" readonly></textarea>
+            </div> 
+            <div>
+                <input class="boton-copiar" type="button"  value="Copiar texto">
+            </div>
+          
+        </section>
+    </main>
+    <footer>Diseñado por KevMorales</footer>
+    <script src="programacion.js"></script>
+</body>
+</html>
